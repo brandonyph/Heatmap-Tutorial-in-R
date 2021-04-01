@@ -44,8 +44,11 @@ heatmap.2(
   scale = "row",
   labRow = NULL,
   labCol = NULL,
-  margins = c(5, 10)
+  margins = c(5, 10),
+  RowSideColors = mycolhc
 )
+
+
 
 #-------------------------------------------------
 # Alternatively, use pheatmap package
